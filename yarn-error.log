@@ -1,0 +1,60 @@
+Arguments: 
+  /Users/adam/.nvm/versions/node/v16.13.1/bin/node /Users/adam/.yarn/bin/yarn.js add cypress-chrome-recorder
+
+PATH: 
+  /Users/adam/.amplify/bin:/Users/adam/.nvm/versions/node/v16.13.1/bin:/Users/adam/.yarn/bin:/Users/adam/.config/yarn/global/node_modules/.bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/share/dotnet:~/.dotnet/tools
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  16.13.1
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/cypress-chrome-recorder: Not found
+      at Request.params.callback [as _callback] (/Users/adam/.yarn/lib/cli.js:67029:18)
+      at Request.self.callback (/Users/adam/.yarn/lib/cli.js:140883:22)
+      at Request.emit (node:events:390:28)
+      at Request.<anonymous> (/Users/adam/.yarn/lib/cli.js:141855:10)
+      at Request.emit (node:events:390:28)
+      at IncomingMessage.<anonymous> (/Users/adam/.yarn/lib/cli.js:141777:12)
+      at Object.onceWrapper (node:events:509:28)
+      at IncomingMessage.emit (node:events:402:35)
+      at endReadableNT (node:internal/streams/readable:1343:12)
+      at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+npm manifest: 
+  {
+    "name": "cypress-recorder-extension",
+    "version": "0.0.1",
+    "description": "",
+    "main": "dist/index.js",
+    "scripts": {
+      "test": "yarn test"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/admah/cypress-recorder-extension.git"
+    },
+    "keywords": [
+      "chrome",
+      "extension",
+      "cypress",
+      "automation"
+    ],
+    "author": "Adam Murray <adamm@cypress.io>",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/admah/cypress-recorder-extension/issues"
+    },
+    "homepage": "https://github.com/admah/cypress-recorder-extension#readme"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
