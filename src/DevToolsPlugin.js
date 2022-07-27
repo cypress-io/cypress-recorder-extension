@@ -1,14 +1,13 @@
-import {
-  cypressStringifyChromeRecording,
-  CypressStringifyExtension,
-} from '@cypress/chrome-recorder';
+import { cypressStringifyChromeRecording } from '@cypress/chrome-recorder';
 
 export class RecorderPlugin {
   async stringify(recording) {
     return cypressStringifyChromeRecording(recording);
   }
+
+  // TODO: provide exported step transform function
   async stringifyStep(step) {
-    return CypressStringifyExtension.stringifyStep(step);
+    return JSON.stringify(step);
   }
 }
 
