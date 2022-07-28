@@ -2,7 +2,7 @@ import { cypressStringifyChromeRecording } from '@cypress/chrome-recorder';
 
 export class RecorderPlugin {
   async stringify(recording) {
-    return cypressStringifyChromeRecording(recording);
+    return await cypressStringifyChromeRecording(JSON.stringify(recording));
   }
 
   // TODO: provide exported step transform function
