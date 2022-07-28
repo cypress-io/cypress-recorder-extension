@@ -1,5 +1,6 @@
 # Cypress Chrome Recorder Extension
 
+> 🔖 **Official Cypress Extension for Chrome DevTools Recorder.** <br/>
 > This project is maintained by the Cypress Team.
 
 <p align="center">
@@ -8,9 +9,9 @@
     </a>
 </p>
 
-Add this Chrome Extension to export DevTools Recordings as Cypress Tests directly from the DevTools Recorder Panel.
-
 ---
+
+Add this Chrome Extension to export DevTools Recordings as Cypress Tests directly from the DevTools Recorder Panel.
 
 ## Usage
 
