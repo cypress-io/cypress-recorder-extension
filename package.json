@@ -5,7 +5,7 @@
   "main": "dist/index.js",
   "scripts": {
     "test": "yarn test",
-    "build": "cp src/*.json build/ && cp src/*.html build/ && rollup --config rollup.config.js"
+    "build": "rsync -a src/*.json build/ && rsync -a src/*.html build/ && rsync -a src/img/*.png build/img/ && rollup --config rollup.config.js"
   },
   "repository": {
     "type": "git",

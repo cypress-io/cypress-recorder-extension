@@ -4,6 +4,12 @@
   "name": "Cypress Chrome Recorder",
   "description": "Cypress extension for DevTools that allows you to export tests directly from the Recorder panel.",
   "permissions": [],
+  "icons": {
+    "16": "img/icon_16x16.png",
+    "32": "img/icon_32x32.png",
+    "48": "img/icon_48x48.png",
+    "128": "img/icon_32x32.png"
+  },
   "devtools_page": "DevToolsPlugin.html",
   "content_security_policy": {
     "extension_pages": "script-src 'self'; object-src 'self'"

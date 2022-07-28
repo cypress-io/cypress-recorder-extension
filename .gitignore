@@ -1,4 +1,6 @@
 node_modules
 yarn-error.log
+
 build/*
 !build/.keep
+**/.DS_Store
