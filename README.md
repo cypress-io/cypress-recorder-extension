@@ -9,6 +9,8 @@
     </a>
 </p>
 
+<img width="1009" alt="export-as-cypress" src="https://user-images.githubusercontent.com/5917927/185565270-2f3e9b34-4432-46a3-bafb-0cfe2e53377b.png">
+
 ---
 
 Add [this Chrome Extension](https://chrome.google.com/webstore/detail/cypress-chrome-recorder/fellcphjglholofndfmmjmheedhomgin) to export DevTools Recordings as Cypress Tests directly from the [DevTools Recorder Panel](https://goo.gle/devtools-recorder).
@@ -28,5 +30,5 @@ Add [this Chrome Extension](https://chrome.google.com/webstore/detail/cypress-ch
 4. Click "Load unpacked" button in upper left corner
 5. Select the previously cloned directory
 
-# Export DevTools Recordings as Cypress Tests in bulk programmatically
-Use the [@cypress/chrome-recorder](https://github.com/cypress-io/cypress-chrome-recorder) CLI to export user flows as Cypress Tests programmatically.
+# Export in bulk programmatically
+Alternatively, use the [@cypress/chrome-recorder](https://github.com/cypress-io/cypress-chrome-recorder) CLI to export DevTools Recordings as Cypress Tests in bulk programmatically.
