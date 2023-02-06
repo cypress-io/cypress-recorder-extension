@@ -24,11 +24,11 @@ Add [this Chrome Extension](https://chrome.google.com/webstore/detail/cypress-ch
 
 ## Testing
 
-1. Clone the repo, run `yarn` and run `npm run build`
+1. Clone the repo, run `yarn` and run `yarn build`
 2. Visit chrome://extensions
 3. Enable "Developer mode" via toggle switch in upper right corner
 4. Click "Load unpacked" button in upper left corner
-5. Select the `build` directory produced by `npm run build`
+5. Select the `build` directory produced by `yarn build`
 
 ## Publishing
 
