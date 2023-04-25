@@ -17,7 +17,7 @@
     "cypress",
     "automation"
   ],
-  "author": "Adam Murray <adamm@cypress.io>",
+  "author": "Cypress-io",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/admah/cypress-recorder-extension/issues"
