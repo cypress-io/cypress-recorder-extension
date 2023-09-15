@@ -18,7 +18,7 @@ Add [this Chrome Extension](https://chrome.google.com/webstore/detail/cypress-ch
 ## Usage
 
 1. [Create a new recording](https://goo.gle/devtools-recorder#record) via the Recorder panel
-2. Hover over the [export](https://goo.gle/devtools-recorder-eference/#export-flows) icon
+2. Hover over the [export](https://developer.chrome.com/docs/devtools/recorder/reference/#export-flows) icon
 3. Click "Export as a Cypress Test"
 4. Save file as {testName}.cy.{ts.js}
 
